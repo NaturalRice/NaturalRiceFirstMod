@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LzJjvVXEE9JbXC/osOfYmJXtE4/8JC4YkDenAQ+OkiLk+YEufo8swMQZOpk4uJg/aCaRHsInZdrRKtpTRhD9gw==",
+  "success": true,
+  "projectFilePath": "D:\\D盘文档\\My Games\\Terraria\\tModLoader\\ModSources\\NaturalRiceFirstMod\\NaturalRiceFirstMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guty\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

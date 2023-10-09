@@ -1,0 +1,100 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	TutorialSword: {
+		DisplayName: Tutorial Sword
+		Tooltip: ""
+	}
+
+	NurexRemote: {
+		DisplayName: Nurex Remote
+		Tooltip: ""
+	}
+
+	NREyeBallImplants: {
+		DisplayName: N R Eye Ball Implants
+		Tooltip: ""
+	}
+
+	ArousCore: {
+		DisplayName: Arous Core
+		Tooltip: ""
+	}
+
+	NeroSummon: {
+		DisplayName: Nero Summon
+		Tooltip: ""
+	}
+
+	DraedonWaiter: {
+		DisplayName: Draedon Waiter
+		Tooltip: ""
+	}
+
+	NeroKey: {
+		DisplayName: Nero Key
+		Tooltip: ""
+	}
+
+	NeroChestplate: {
+		DisplayName: Nero Chestplate
+		Tooltip: ""
+	}
+
+	ArousChestplate: {
+		DisplayName: Arous Chestplate
+		Tooltip: ""
+	}
+
+	NeroBullet: {
+		DisplayName: Nero Bullet
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	NurexBuff: {
+		DisplayName: Nurex Buff
+		Description: Mods.NatrualRiceFirstMod.Buffs.NurexBuff.Description
+	}
+
+	NREyeBallBuff: {
+		DisplayName: N R Eye Ball Buff
+		Description: Mods.NatrualRiceFirstMod.Buffs.NREyeBallBuff.Description
+	}
+
+	ArousBuff: {
+		DisplayName: Arous Buff
+		Description: Mods.NaturalRiceFirstMod.Buffs.ArousBuff.Description
+	}
+
+	NeroBuff: {
+		DisplayName: Nero Buff
+		Description: Mods.NaturalRiceFirstMod.Buffs.NeroBuff.Description
+	}
+
+	DraWBuff: {
+		DisplayName: Dra W Buff
+		Description: Mods.NaturalRiceFirstMod.Buffs.DraWBuff.Description
+	}
+
+	NeroMountBuff: {
+		DisplayName: Nero Mount Buff
+		Description: Mods.NaturalRiceFirstMod.Buffs.NeroMountBuff.Description
+	}
+}
+
+Projectiles: {
+	NurexPet.DisplayName: Nurex Pet
+	NREyeBallPet.DisplayName: N R Eye Ball Pet
+	ArousBody.DisplayName: Arous Body
+	DraWGuard1.DisplayName: Dra W Guard1
+	DraWGuard2.DisplayName: Dra W Guard2
+	DraWGuard3.DisplayName: Dra W Guard3
+	DraWPet.DisplayName: Dra W Pet
+	GaussArm.DisplayName: Gauss Arm
+	LaserArm.DisplayName: Laser Arm
+	PlasmaArm.DisplayName: Plasma Arm
+	TeslaArm.DisplayName: Tesla Arm
+	NeroBullet.DisplayName: Nero Bullet
+}

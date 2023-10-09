@@ -1,0 +1,3 @@
+displayName = Natrual Rice 1st Mod
+author = NaturalRice
+version = 11.0.8

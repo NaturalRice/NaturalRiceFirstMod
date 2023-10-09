@@ -1,0 +1,41 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NaturalRiceFirstMod.Buffs.Pets.ExoNRMechs
+{
+    public class NeroBuff : ModBuff
+    {
+        public override void SetStaticDefaults()
+        {
+            Main.buffNoTimeDisplay[Type] = true;
+            Main.vanityPet[Type] = true;
+        }
+
+        public override void Update(Player player, ref int buffIndex)
+        {
+            player.buffTime[buffIndex] = 18000;
+            player.GetModPlayer<NaturalRiceFirstModPlayer>().arous = true;
+            player.GetModPlayer<NaturalRiceFirstModPlayer>().nurex = true;
+            player.GetModPlayer<NaturalRiceFirstModPlayer>().nreyeball = true;
+
+            bool thanosNotHere = player.ownedProjectileCounts[ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.NurexPet>()] <= 0;
+            if (thanosNotHere && player.whoAmI == Main.myPlayer)
+            {
+                Projectile.NewProjectile(player.GetSource_Buff(buffIndex), player.position.X + (float)(player.width / 2), player.position.Y + (float)(player.height / 2), 0f, 0f, ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.NurexPet>(), 0, 0f, player.whoAmI, 0f, 0f);
+            }
+
+            bool aresNotHere = player.ownedProjectileCounts[ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.ArousBody>()] <= 0;
+            if (aresNotHere && player.whoAmI == Main.myPlayer)
+            {
+                Projectile.NewProjectile(player.GetSource_Buff(buffIndex), player.position.X + (float)(player.width / 2), player.position.Y + (float)(player.height / 2), 0f, 0f, ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.ArousBody>(), 0, 0f, player.whoAmI, 0f, 0f);
+            }
+
+            bool twinsNotHere = player.ownedProjectileCounts[ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.NREyeBallPet>()] <= 0;
+            if (twinsNotHere && player.whoAmI == Main.myPlayer)
+            {
+                Projectile.NewProjectile(player.GetSource_Buff(buffIndex), player.position.X + (float)(player.width / 2), player.position.Y + (float)(player.height / 2), 0f, 0f, ModContent.ProjectileType<Projectiles.Pets.ExoNRMechs.NREyeBallPet>(), 0, 0f, player.whoAmI, 0f, 0f);
+            }
+        }
+    }
+}
